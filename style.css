@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Dosis:wght@200;300&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Robto','Dosis';
+    color: #fff;
+    /* margin: 0.75rem 0; */
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-size: 1.15rem;
+}
+/* Utilty Classes */
+.text-primary {
+    color: #54c1f3;
+}
+.btn {
+    border: none;
+    border-radius: 5px;
+    background: #222;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    color: #fff;
+}
+.header {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 1.5rem;
+    overflow: hidden;
+}
+.bg-primary {
+    background: #333;
+    color: #fff;
+}
+.h-primary {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+.h-secondary {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+.p-1 {
+    padding: 1rem 0.5rem;
+}
+
+
+/* Main Content */
+
+/* NavBar */
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: rgba(3,3,3,0.8);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1;
+}
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+#navbar ul a{
+    padding: 0.5rem;
+    color: #fff;
+}
+#navbar ul a:hover,.btn:hover{
+    background: #555;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.087s ease-in-out;
+}
+#navbar .logo {
+    color: #fff;
+}
+/* Showcase */
+#showcase {
+    background: url("./img/building-1.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+#showcase #showcase-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    right: 0;
+    left: 0;
+    /* bottom: 0; */
+}
+
+/* Who */
+#who {
+    display: flex;
+    flex-direction: column;
+}
+#who .clients {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+#who .clients #logos {
+    display: flex;
+}
+#who .clients #logos img{
+    width: 60%;
+
+}
+#who .container div {
+    margin-bottom: 2rem;
+}
+
+
+/* SECTION: What */
+#what {
+    display: flex;
+    color: #222;
+    /* height: 600px; */
+    text-align: center;
+}
+#what #img-content{
+    /* height: 100%; */
+    background: url("./img/employee-2.jpg") no-repeat center center/cover;
+    flex: 1;
+}
+#what .what {
+    /* padding: 0 1rem; */
+    flex: 1;
+    height: 100%;
+}
+ i  {
+    padding: 2 rem;
+    /* border-radius: 50%; */
+}
+
+
+
+
+/* COntact */
+#contact {
+    display: flex;
+    flex-direction: row;
+}
+#contact div {
+    flex: 1;
+}
+#contact .contact {
+    flex: 1;
+    background: url('./img/sign-up-bg-2.jpg') no-repeat center center/cover;
+    padding: 1rem;
+}
+#contact .contact .form-group label,
+#contact .contact .form-group button
+{
+    display: block;
+    margin-top: 0.75rem;
+} 
+#contact .contact .form-group input,
+#contact .contact .form-group textarea
+ {
+    width: 100%;
+    padding: 0.25rem;
+    border: none;
+    border-radius: 5px;
+}
+#contact .contact .form-group button {
+    width: 40%;
+    font-size: 1.1rem;
+    margin: auto;
+    margin-top: 0.75rem;
+    text-align: center;
+    cursor: pointer;
+}
+#contact .map {
+flex: 1;  
+    /* background: url('../img/building-2.jpg') no-repeat center center/cover; */
+}
+#footer {
+    text-align: center;
+    background: #222;
+    padding: 1rem;
+} 
+#footer i {
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,38 @@
+@media(max-width: 500px){
+
+#navbar {
+    flex-direction: column;
+    align-items: center; 
+}
+#navbar #logo{
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+#navbar ul {
+    padding: 0.5rem;
+}
+
+#what {
+    display: block;
+    /* height: 1000px; */
+}
+#what .what .insurance,#what .what .insurance h2{
+    text-align: left;
+}
+#what #img-content{
+    height: 350px;
+}
+
+#contact {
+    display: block;
+}
+#contact .map{
+    height: 450px;
+}
+.h-primary{
+    margin: 0;
+}
+.p-1 {
+    padding:1rem 2.5rem;
+}
+}

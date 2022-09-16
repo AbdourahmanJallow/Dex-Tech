@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="./mobile.css">
+        <link rel="stylesheet" media="screen and (min-width: 1100px)" href="./widescreen.css ">
+        <script src="https://kit.fontawesome.com/fe552563ca.js" crossorigin="anonymous"></script>
+        <title>Dex Tech | Home Page</title>
+    </head>
+
+    <body id="home">
+        <nav id="navbar">
+            <h1 id="logo">
+
+                <a href="#home"><span class="text-primary"> <i class="fa-solid fa-layer-group"></i> Dex</span></a> Tech
+            </h1>
+            <ul>
+                <li><a href="#home" a>Home</a></li>
+                <li><a href="#who" a>Who</a></li>
+                <li><a href="#what" a>What</a></li>
+                <li><a href="#contact" a>Contact</a></li>
+            </ul>
+        </nav>
+        <header id="showcase">
+            <div id="showcase-content">
+                <h2 class="header">Setting High Standards</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Rerum debitis hic explicabo officia quibusdam numquam.</p>
+                <a href="#what" class="btn">Read More</a>
+            </div>
+        </header>
+        <section id="who" class="bg-primary">
+            <div class="container">
+                <div class="who-content">
+                    <h2 class="h-primary"><span class="text-primary">Who</span> We Are</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        A non asperiores, excepturi maiores sint alias placeat,
+                        tenetur sit nesciunt eum numquam! Consectetur aut corporis
+                        quaerat consequatur eaque ducimus omnis ipsam, neque soluta!
+                        Nemo reprehenderit voluptatum repellendus quod repellat?
+                        bn Reprehenderit, accusantium?</p>
+                </div>
+                <div class="members">
+                    <h2 class="h-secondary">Our Team</h2>
+                    <p>Riman Dex: CEO</p>
+                    <p>John Snow: Secretary</p>
+                    <p>Adrian Tirabelli: Investment Manager</p>
+                    <p>Julia Schoz: Senior Accountant</p>
+                </div>
+                <div class="clients">
+                    <div>
+                        <h2 class="text-primary h-primary">Clients</h2>
+                    </div>
+                    <div id="logos">
+                        <div class="logo">
+                            <img src="./img/logo/logo1.png" alt="">
+                        </div>
+                        <div class="logo">
+                            <img src="./img/logo/logo2.png" alt="">
+                        </div>
+                        <div class="logo">
+                            <img src="./img/logo/logo3.png" alt="">
+                        </div>
+                        <div class="logo">
+                            <img src="./img/logo/logo5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="what">
+            <div id="img-content"></div>
+            <div class="what p-1">
+                <h2 class="h-primary"><span class="text-primary">What</span> We Offer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, aperiam! Lorem ipsum dolor sit.</p>
+                <div class="insurance">
+                    <div>
+                        <h2 class="h-secondary"><span class="text-primary"><i
+                                    class="fa-solid fa-globe fa-2x"></i></span> I-Services</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, commodi. Lorem ipsum dolor sit
+                            amet consectetur adipisicing ghatre murnat resuat accusantium.</p>
+                    </div>
+                    <div>
+                        <h2 class="h-secondary"><span class="text-primary"><i
+                                    class="fa-solid fa-people-group fa-2x"></i></span> Lorem Ipsum</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni numquam sint culpa tenetur.
+                            Consectetur Lorem ipsum dolor sit amet.!</p>
+                    </div>
+                    <div>
+                        <h2 class="h-secondary"><span class="text-primary"><i class="fa-solid fa-eye fa-2x"></i></span>
+                            Digital Management</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Nisi, accusantium!.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact">
+                <h2 class="h-primary">Contact US</h2>
+                <p>Please fill the form to reach us.</p>
+                <form action="process.php">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter email">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="phone" id="phone" placeholder="Enter phone number">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="msg">Message</label>
+                        <textarea name="msg" id="msg" placeholder="Enter msg" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="map"></div>
+        </section>
+        <footer id="footer">
+
+            <h2 class="h-secondary">Dex Tech</h2>
+            <p>All rights reserved. &copy; Copyright</p>
+            <i class="fa-solid fa-layer-group fa-2x"></i>
+        </footer>
+
+
+        <!-- JQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <!-- Local JS File -->
+        <script src="main.js"></script>
+
+        <!-- Google Maps -->
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9SdI_5kBvNc_iSkuzX7xEQGx7xAtT4GI&callback=initMap"
+            async defer></script>
+    </body>
+
+</html>
+<!-- AIzaSyC9SdI_5kBvNc_iSkuzX7xEQGx7xAtT4GI -->

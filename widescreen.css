@@ -1,0 +1,6 @@
+#contact {
+    display: flex;
+}
+ #contact .map {
+    flex: 2;
+}
